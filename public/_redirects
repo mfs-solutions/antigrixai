@@ -1,5 +1,0 @@
-# SPA routing - serve index.html for all non-matching routes
-/assets/*  /assets/:splat  200
-/*.js  /:splat  200
-/*.css  /:splat  200
-/*  /index.html  200
