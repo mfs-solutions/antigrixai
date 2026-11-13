@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
+    copyPublicDir: true,
     rollupOptions: {
       input: {
         main: './index.html',
